@@ -26,12 +26,12 @@
       <![CDATA[Closed the browser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15841" started-at="2021-06-13T05:21:23Z" finished-at="2021-06-13T05:21:39Z">
+  <suite name="Suite1" duration-ms="28468" started-at="2021-06-13T15:21:44Z" finished-at="2021-06-13T15:22:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15841" started-at="2021-06-13T05:21:23Z" finished-at="2021-06-13T05:21:39Z">
+    <test name="test" duration-ms="28468" started-at="2021-06-13T15:21:44Z" finished-at="2021-06-13T15:22:13Z">
       <class name="com.learnAutomation.testcases.RegistrationTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502]" name="setUpSuite" is-config="true" duration-ms="1182" started-at="2021-06-13T10:51:22Z" finished-at="2021-06-13T10:51:23Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891]" name="setUpSuite" is-config="true" duration-ms="1602" started-at="2021-06-13T20:51:43Z" finished-at="2021-06-13T20:51:44Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up the reports and excel started]]>
@@ -41,14 +41,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502]" name="setUp" is-config="true" duration-ms="10005" started-at="2021-06-13T10:51:23Z" finished-at="2021-06-13T10:51:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891]" name="setUp" is-config="true" duration-ms="17664" started-at="2021-06-13T20:51:44Z" finished-at="2021-06-13T20:52:02Z">
           <reporter-output>
             <line>
               <![CDATA[Called the startapplication]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registeraUser()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502]" name="registeraUser" duration-ms="4107" started-at="2021-06-13T10:51:33Z" finished-at="2021-06-13T10:51:37Z">
+        <test-method status="PASS" signature="registeraUser()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891]" name="registeraUser" duration-ms="8425" started-at="2021-06-13T20:52:02Z" finished-at="2021-06-13T20:52:10Z">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Sign buttono on landing page]]>
@@ -64,18 +64,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- registeraUser -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502]" name="teardownMethod" is-config="true" duration-ms="799" started-at="2021-06-13T10:51:37Z" finished-at="2021-06-13T10:51:38Z">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891]" name="teardownMethod" is-config="true" duration-ms="1497" started-at="2021-06-13T20:52:10Z" finished-at="2021-06-13T20:52:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=registeraUser status=SUCCESS method=RegistrationTest.registeraUser()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502] output=Clicking on Sign buttono on landing page]]]>
+                <![CDATA[[TestResult name=registeraUser status=SUCCESS method=RegistrationTest.registeraUser()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891] output=Clicking on Sign buttono on landing page]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@7c30a502]" name="tearDown" is-config="true" duration-ms="918" started-at="2021-06-13T10:51:38Z" finished-at="2021-06-13T10:51:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnAutomation.testcases.RegistrationTest@1d251891]" name="tearDown" is-config="true" duration-ms="867" started-at="2021-06-13T20:52:12Z" finished-at="2021-06-13T20:52:13Z">
           <reporter-output>
             <line>
               <![CDATA[Closed the browser]]>
@@ -83,6 +83,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.learnAutomation.testcases.RegistrationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- test -->
+  </suite> <!-- Suite1 -->
 </testng-results>
